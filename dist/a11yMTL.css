@@ -3,16 +3,6 @@
 	color: white;
 }
 
-/* .reveal .slide-number {
-    position: absolute;
-    display: block;
-    left: 20px;
-    top: 8px;
-    z-index: 31;
-    font-family: Helvetica,sans-serif;
-    font-size: 3em;
-    line-height: 1;
-    color: #fff;
-    background-color: rgba(0,0,0,.4);
-    padding: 5px;
-} */
+.reveal ol {
+    list-style-type: lower-alpha;
+}

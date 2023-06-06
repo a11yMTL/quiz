@@ -32,9 +32,15 @@ font-size: 3em;
 	color: white;
 }
 
+.reveal .slides h1 {
+font-size: 1.5em;
+
+}
+
 .reveal ol {
     list-style-type: lower-alpha;
 	margin: 10px;
+	padding: 50px;
 }
 
 .reveal .slides p {

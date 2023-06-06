@@ -48,8 +48,11 @@ font-size: 3em;
 color: yellow;
 }
 
-.scrollable {
-    overflow-y: auto  !important;
-    overflow-x: hidden !important;
-    height: 700px;
+.reveal-viewport {
+    overflow-x: auto  !important;
+    overflow-y: auto !important;
+}
+
+.reveal .slides .slide-number {
+	font-size: 100px !important;
 }

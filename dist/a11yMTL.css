@@ -34,15 +34,22 @@ font-size: 3em;
 
 .reveal ol {
     list-style-type: lower-alpha;
+	margin: 10px;
 }
 
 .reveal .slides p {
 	padding-bottom: 25px;
-	font-size: 1.25em;
+	font-size: 1.35em;
 	color: #AFCBB9;
 	font-weight: 900;
 }
 
 .answer {
 color: yellow;
+}
+
+.scrollable {
+    overflow-y: auto  !important;
+    overflow-x: hidden !important;
+    height: 700px;
 }

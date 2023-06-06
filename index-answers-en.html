@@ -11,6 +11,7 @@
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/night.css">
 		<link rel="stylesheet" href="dist/a11yMTL.css">
+		<link rel="stylesheet" href="plugin/accessibility/helper.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -341,10 +342,16 @@
 			// - https://revealjs.com/config/
 			Reveal.initialize({
 				hash: true,
-				slideNumber: 'c',
+				slideNumber: 'c/t',
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+				plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+				dependencies: [
+					{
+						src: 'plugin/accessibility/helper.js', async: true, condition: function () {
+							return !!document.body.classList;
+						}
+					}]
 			});
 		</script>
 	</body>

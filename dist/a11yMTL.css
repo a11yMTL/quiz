@@ -1,57 +1,27 @@
-.mainPage {
-background-color: black;
-color: white;
-font-size: 3em;
-}
-
-.mainPage h1 {
-	font-size: 2em;
-	text-align: center;
-}
-
-.mainPage a {
-	color: white;
-}
-
-.mainPage a:hover, .mainPage a:focus {
-	text-decoration: none;
-	color: #C5CC00;
-}
-
-.mainPage ul {
-	padding: 200px;
-}
-
-.mainPage li {
-	margin: 20px;
-}
 
 
 .reveal .slides {
-	text-align: left;
+	/* text-align: left; */
 	color: white;
 }
 
 .reveal .slides h1 {
-font-size: 1.5em;
-
+	font-size: 1.5em;
 }
 
 .reveal ol {
     list-style-type: lower-alpha;
-	margin: 10px;
-	padding: 50px;
 }
 
 .reveal .slides p {
 	padding-bottom: 25px;
-	font-size: 1.35em;
+	font-size: 1.1em;
 	color: #AFCBB9;
 	font-weight: 900;
 }
 
 .answer {
-color: yellow;
+	color: yellow;
 }
 
 .reveal-viewport {
